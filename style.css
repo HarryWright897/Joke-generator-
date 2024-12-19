@@ -1,0 +1,31 @@
+/* adding font to everything  */
+*{
+    font-family: 'Montserrat';
+}
+
+/* setting the background color of the page */
+.bodybg{
+    background-color:antiquewhite;
+}
+ /* creating box for jokes to go inside of */
+.inner-container{
+    max-width: 45vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: rgb(98, 98, 255);
+    border: 10px solid rgba(0, 110, 255, 0.797);
+}
+
+/* shadow effect */
+.shadow{
+    box-shadow: rgba(0, 132, 255, 0.16) 0px 1px 4px, rgb(9, 218, 255) 0px 0px 0px 3px;
+}
+
+/* laugh emoji */
+.laugh-emoji{
+    font-size: 4em
+}
